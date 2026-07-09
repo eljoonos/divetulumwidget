@@ -28,14 +28,14 @@ add_action( 'plugins_loaded', function () {
 add_action( 'wp_enqueue_scripts', function () {
 	wp_register_style(
 		'divetulumwidget-style',
-		DIVETULUM_WIDGET_URL . 'assets/css/style.css',
+		DIVETULUM_WIDGET_URL . 'css/style.css',
 		array(),
 		DIVETULUM_WIDGET_VERSION
 	);
 
 	wp_register_script(
 		'divetulumwidget-frontend',
-		DIVETULUM_WIDGET_URL . 'assets/js/frontend.js',
+		DIVETULUM_WIDGET_URL . 'js/frontend.js',
 		array(),
 		DIVETULUM_WIDGET_VERSION,
 		true
