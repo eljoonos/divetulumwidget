@@ -1,0 +1,13 @@
+.divetulum-sidebar-slider {
+	position: relative;
+	width: 100%;
+}
+
+.divetulum-sidebar-slider__notice {
+	padding: 14px 16px;
+	border: 1px dashed #bbb;
+	border-radius: 12px;
+	background: #fafafa;
+	font-size: 14px;
+	line-height: 1.5;
+}
